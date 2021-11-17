@@ -1,5 +1,19 @@
 # BombCrypto-Bot
 
+# How it works:
+
+This is a bot based on mouse position and it use some image recognition, this is why you need to set up the postion of the buttons of the game before using it!
+
+First of all you need to sign a first time on the game, because your wallet will ask your password the first time.
+
+After that you can run your bot, it will sign for you, get all your heroes working and then click into the game.
+
+It will also automatically check if you are not logged off and if you are will login you again, click on a new map for you and also put your heroes for work every 23 minutes!
+
+If are enjoying the bot you can send me Bcoins :)
+
+Wallet: 0xb623CdA9c073220B8D7C9742A08cB576AD9aB392
+
 # Installation:
 ### First of all you need to have Phython installed in your system: https://www.python.org/downloads/
 
@@ -7,11 +21,15 @@
 
 ### Open cmd
 Type "cd [the folder you extract the files]"
-![image](https://user-images.githubusercontent.com/77845346/141888545-e3876f98-58ff-4100-b2a4-dc368d474fd3.png)
+
+![image](https://user-images.githubusercontent.com/77845346/142094138-3bbcbf3e-3973-40b1-a3df-86ac986ad2ca.png)
 
 
 ### Install the dependencies:
 Type "pip install -r requirements.txt"
+
+![image](https://user-images.githubusercontent.com/77845346/142118264-73e76c49-6186-404d-a0df-d06dc3981c40.png)
+
 
 # Configuring Mouse positions
 
@@ -19,6 +37,9 @@ Type "pip install -r requirements.txt"
 
 ### Run the mousePos.py
 Type "python mousePos.py"
+
+![image](https://user-images.githubusercontent.com/77845346/142094182-d3c3c7bd-1f17-4043-acba-a2e8ce879343.png)
+
 
 ### 1 - Put the mouse on "Connect Wallet" and press "s"
 Note the coordinates that will be given to you
@@ -94,11 +115,20 @@ Open the bombCryptoBot.py with any text or python editor and change the "posX" a
 
 ![image](https://user-images.githubusercontent.com/77845346/141888098-ab06aac9-e634-4734-8943-75285dacd39c.png)
 
-### When you've done that you are ready to run the bot!
+### Type ctrl+C when you are done to stop the script!
+
+### Now you are ready to run the bot!
 
 ### Run the bombCryptoBot.py
 Type "python bombCryptoBot.py" on cmd
+
+![image](https://user-images.githubusercontent.com/77845346/142121275-9ed0f29b-ff33-4e8c-9a77-632bc58ddd58.png)
+
+
 Click on the BombCrypto page and press 1
 
 The bot will start now and will keep running until you stop it!
 
+# BUGS
+
+### Please let me know if you find any bug or problem!
